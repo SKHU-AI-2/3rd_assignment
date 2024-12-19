@@ -5,8 +5,8 @@ import csv
 # numpy version 1.24.3
 
 
-image_folder = 'data/stand/'
-csv_file = 'extract_coordinates_stand.csv'
+image_folder = 'data/sit/'
+csv_file = 'extract_coordinates_sit.csv'
 
 
 mp_pose = mp.solutions.pose
@@ -62,5 +62,5 @@ for img_name in os.listdir(image_folder):
                 left_wrist_x, left_wrist_y, 
                 right_shoulder_x, right_shoulder_y,
                 right_wrist_x, right_wrist_y,
-                'stand'
+                'sit'
             ])
