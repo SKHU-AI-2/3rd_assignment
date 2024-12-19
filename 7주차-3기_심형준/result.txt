@@ -1,0 +1,23 @@
+             Image  left shoulder X  ...  right wrist Y  Label
+0           1.png              304  ...            241    sit
+1           2.png              218  ...            257    sit
+2           3.png              361  ...            326    sit
+3           4.png              289  ...            286    sit
+4  action0300.jpg               54  ...            273    sit
+
+[5 rows x 10 columns]
+훈련 데이터 클래스 분포:
+Label
+1    16
+0    15
+Name: count, dtype: int64
+Accuracy: 0.6429
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.57      0.62         7
+           1       0.62      0.71      0.67         7
+
+    accuracy                           0.64        14
+   macro avg       0.65      0.64      0.64        14
+weighted avg       0.65      0.64      0.64        14
